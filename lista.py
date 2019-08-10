@@ -1,4 +1,5 @@
 import inspect
+f= open("/home/renato/Desktop/python/snake/debug.txt","w+")
 class Node:
 	def __init__(self, algo):
 		self.content = algo
@@ -24,6 +25,57 @@ class Lista:
 	def snake_body(self):
 		if(self.head is not None and self.tail is not None):
 			return "({},{})".format(self.head.content,self.tail.content)
+	def comparar(self, other):
+		aux = self.head
+		aux1 = other.head
+		if(self.size == other.size):
+			while(aux is not None):
+				if(aux.content != aux1.content):
+					return False
+				aux = aux.next
+				aux1 = aux1.next
+			return True
+		return False
+	def is_in_itself(self):
+		aux_head = self.head.content
+		aux = self.head
+		while(aux is not None):
+			if(aux.content.comparar(aux_head)):
+				return True
+			aux = aux.next
+		return False
+	def is_inside(self,other):
+		aux = self.head
+		while(aux is not None):
+			if(aux.content.comparar(other)):
+				return True
+			aux = aux.next
+		return False
+	def popElement(self):
+		if(self.head is None):
+			return None
+		if(self.size == 1):
+			self.head = self.tail = None
+			self.size = 0
+			return None
+		aux = self.tail
+		self.tail.prev.next = None
+		self.tail = self.tail.prev
+		aux.prev = None
+		self.size -= 1
+		return aux.content
+	def has(self,other):
+		global f
+		f.write("Searching for: {}".format(other)+"\n")
+		f.write("In list: "+"\n")
+		aux = self.head
+		while(aux is not None):
+			f.write("{}".format(aux.content)+"\n")
+			if(aux.content == other):
+				f.write("Found: {}".format(aux.content)+"\n")
+				return True
+			aux = aux.next
+		return False
 	def agregar(self,algo):
 		if(self.head is None):
 			self.head = self.tail = Node(algo)

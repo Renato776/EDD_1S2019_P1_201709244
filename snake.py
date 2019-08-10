@@ -2,6 +2,7 @@ import random
 import curses
 from lista import Lista
 from report import Report
+foo =  open("/home/renato/Desktop/python/snake/snake_debug.txt","w+")
 reportes = Report("/home/renato/Desktop/python/snake/")
 score = Lista()
 s = curses.initscr()
@@ -18,7 +19,9 @@ snake = [
     [snk_y, snk_x-1],
     [snk_y, snk_x-2]
 ]
-
+foo.write("Head: ({},{})".format(snake[0][0],snake[0][1])+"\n")
+foo.write("body: ({},{})".format(snake[1][0],snake[1][1])+"\n")
+foo.write("Tail: ({},{})".format(snake[2][0],snake[2][1])+"\n")
 food = [sh/2, sw/2]
 w.addch(int(food[0]), int(food[1]), curses.ACS_PI)
 
@@ -28,6 +31,7 @@ while True:
     next_key = w.getch()
     key = key if next_key == -1 else next_key
     new_head = [0,0]
+    foo.write("Current head: ({},{})".format(snake[0][0],snake[0][1])+"\n")
     if snake[0][0] in [0, sh]:
         new_head = [2, snake[0][1]]
         print(snake[0])

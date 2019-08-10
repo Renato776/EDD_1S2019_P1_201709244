@@ -1,0 +1,1353 @@
+Searching for: 8
+In list: 
+89
+17
+0
+Searching for: 20
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 8
+In list: 
+89
+17
+0
+Searching for: 21
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 8
+In list: 
+89
+17
+0
+Searching for: 22
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: 16
+In list: 
+89
+17
+0
+Searching for: 2
+In list: 
+89
+17
+0
+Searching for: -1
+In list: 
+89
+17
+0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: 0
+In list: 
+89
+17
+0
+Found: 0
+Searching for: -2
+In list: 
+89
+17
+0
+Searching for: 88
+In list: 
+89
+17
+0
