@@ -1,2 +1,0 @@
-digraph foo {rankdir=TB; node [shape=record];score [label="{ |(11,5) | (5,10) | (3,4) | (2,4)}"]
-}

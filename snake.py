@@ -1,6 +1,9 @@
 import random
 import curses
-
+from lista import Lista
+from report import Report
+reportes = Report("/home/renato/Desktop/python/snake/")
+score = Lista()
 s = curses.initscr()
 curses.curs_set(0)
 sh, sw = s.getmaxyx()
@@ -26,13 +29,14 @@ while True:
     key = key if next_key == -1 else next_key
     new_head = [0,0]
     if snake[0][0] in [0, sh]:
-        #new_head = [2, snake[0][1]]
+        new_head = [2, snake[0][1]]
         print(snake[0])
     elif snake[0][1] in [0, sw]:
         #new_head = [snake[0][0], 2]
         print(snake[0])
     elif snake[0] in snake[1:]:
         curses.endwin()
+        reportes.scoreBoard_report(score)
         quit()
     else:
         new_head = [snake[0][0], snake[0][1]]
@@ -49,6 +53,7 @@ while True:
     snake.insert(0, new_head)
 
     if snake[0] == food:
+    	score.agregar(Lista(snake[0][0],snake[0][1]))
         food = None
         while food is None:
             nf = [

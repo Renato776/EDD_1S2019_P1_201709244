@@ -1,3 +1,4 @@
+from lista import Lista
 class Misc:
 	def __init__(self,wind,a,b):
 		self.win = wind
@@ -30,6 +31,15 @@ class Misc:
 		self.pos_y+=1
 	def reset_pos(self):
 		self.pos_y = 4
+	def bulk_loading(self,name,vessel):
+		f = open(name,"r")
+		f1 = f.readlines()
+		notFirst = False
+		for content in f1:
+			if(notFirst):
+				vessel.agregar(content)
+			else:
+				notFirst = True
 	def getString(self):
 		cadena = ""
 		key = self.win.getch()

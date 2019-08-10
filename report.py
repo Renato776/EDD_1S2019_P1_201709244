@@ -1,9 +1,17 @@
 from lista import Lista
+from subprocess import call
+import os
 class Report:
 	def __init__(self,dir):
 		self.direccion = dir
 		self.header = "digraph foo { rankdir=LR; node [shape=record];"
 		self.stack_header = "digraph foo {rankdir=TB; node [shape=record];"
+	def getImage(self,name):
+		#cmd = "dot -Tpng "+"/home/renato/Desktop/python/snake/"+name+".dot"+" -o "+"/home/renato/Desktop/python/snake/"+name+".png"
+		#os.system(cmd)
+		#call('dot -Tpng /home/renato/Desktop/python/snake/'+name+'.dot -o /home/renato/Desktop/python/snake/'+name+'.png', shell=True)
+		#call('touch /home/renato/Desktop/python/snake/'+name+'.txt',shell = True)
+		os.system('dot -Tpng /home/renato/Desktop/python/snake/'+name+'.dot -o /home/renato/Desktop/python/snake/'+name+'.png')
 	def scoreBoard_report(self,scoreBoard):
 		aux = scoreBoard.head
 		resultado = "n2[label = \"null\"]"+"\n"
@@ -17,10 +25,11 @@ class Report:
 			c += 1
 			aux = aux.next
 		resultado = resultado +"}"
-		f= open("scoreBoard.dot","w+")
+		f= open(self.direccion+"scoreBoard.dot","w+")
 		f.write(self.header)
 		f.write(resultado)
 		f.close
+		self.getImage("scoreBoard")
 	def users_report(self,usuarios):
 		aux = usuarios.head
 		c = 0
@@ -34,10 +43,11 @@ class Report:
 			aux = aux.next
 			c+=1
 		resultado = resultado +"}"
-		f= open("users.dot","w+")
+		f= open(self.direccion+"users.dot","w+")
 		f.write(self.header)
 		f.write(resultado)
 		f.close
+		self.getImage("users")
 	def stack_report(self,stack):
 		resultado = "score [label=\"{ |"
 		aux = stack.head
@@ -47,10 +57,11 @@ class Report:
 				resultado = resultado + " | "
 			aux = aux.next
 		resultado = resultado + "}\"]"+"\n"+"}"
-		f= open("stack.dot","w+")
+		f= open(self.direccion+"stack.dot","w+")
 		f.write(self.stack_header)
 		f.write(resultado)
 		f.close
+		self.getImage("stack")
 	def snake_report(self,snake):
 		resultado =  "n1[label = \"null\"]"+"\n"
 		resultado =  resultado + "n2[label = \"null\"]"+"\n"
@@ -65,13 +76,14 @@ class Report:
 				resultado = resultado + "s0:ref0 -> n1      [arrowhead=vee, tailclip=false,arrowtail = vee];"
 			c+=1
 			aux = aux.next
-		f= open("snake.dot","w+")
+		f= open(self.direccion+"snake.dot","w+")
 		f.write(self.header)
 		f.write(resultado)
 		f.write("}")
 		f.close
-algo = Report("/home/renato/Desktop/python/snake/")
-serpiente = Lista()
+		self.getImage("snake")
+#algo = Report("/home/renato/Desktop/python/snake/")
+"""serpiente = Lista()
 serpiente.agregar(Lista(2,4))
 serpiente.agregar(Lista(3,4))
 serpiente.agregar(Lista(5,10))
@@ -85,4 +97,4 @@ usuarios.agregar("Javi")
 usuarios.agregar("Alex")
 usuarios.agregar("Jorge")
 usuarios.agregar("Hector")
-algo.users_report(usuarios)
+algo.users_report(usuarios)"""
