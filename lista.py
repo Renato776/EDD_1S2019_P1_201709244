@@ -4,6 +4,10 @@ class Node:
 		self.content = algo
 		self.next = None
 		self.prev = None
+	def snake_node(self,indice):
+		return "s{}".format(indice)+" [label=\"{<ref0> | <data> "+self.content.snake_body()+" | <ref>  }\"];"
+	def toBody(self):
+		return self.content
 class Lista:
 	def __init__(self, a = None, b = None):
 		if(a is None and b is None):
@@ -16,7 +20,10 @@ class Lista:
 			self.head.next = self.tail
 			self.tail.prev = self.head
 			self.size = 2
-	
+		self.iter = 0
+	def snake_body(self):
+		if(self.head is not None and self.tail is not None):
+			return "({},{})".format(self.head.content,self.tail.content)
 	def agregar(self,algo):
 		if(self.head is None):
 			self.head = self.tail = Node(algo)
@@ -26,6 +33,30 @@ class Lista:
 			aux.next = self.head
 			self.head = aux
 		self.size +=1
+	def derecha(self):
+		if(self.head is None):
+			return
+		else:
+			true_aux = self.getNode(self.iter)
+			if(true_aux is None):
+				return
+			else:
+				if(true_aux.next is None):
+					self.iter = 0
+				else:
+					self.iter += 1
+	def izquierda(self):
+		if(self.head is None):
+			return
+		else:
+			aux = self.getNode(self.iter)
+			if(aux is None):
+				return
+			else:
+				if(aux.prev is None):
+					self.iter = self.size-1
+				else:
+					self.iter -= 1				
 	def contains(self,algo):
 		auxiliar = self.head
 		while(auxiliar is not None):
@@ -59,8 +90,23 @@ class Lista:
 			c += 1
 			aux = aux.next
 		return None
-	def enqueue(self, algo):
-		if(self.size == 10):
+	def getNode(self, indice):
+		c = 0
+		aux = self.head
+		while(aux is not None):
+			if(indice == c):
+				return aux
+			c += 1
+			aux = aux.next
+		return None
+	def getUser(self):
+		aux = self.getElement(self.iter)
+		if(aux is None):
+			return "No users have been found."
+		else:
+			return aux
+	def enqueue(self, algo,resize = True):
+		if(self.size == 10 and resize):
 			self.unqueue()
 		if(self.head is None):
 			self.head=self.tail=Node(algo)
@@ -73,16 +119,19 @@ class Lista:
 	def unqueue(self):
 		auxiliar = self.head
 		if(self.head is None):
+			self.iter = 0
 			return None
 		if(self.head.next is None):
 			self.head = self.tail = None
 			self.size = 0
+			self.iter = 0
 			return auxiliar
 		else:
 			self.head.next.prev = None
 			self.head = self.head.next
 			auxiliar.next = None
 			self.size -= 1
+			self.iter = 0
 			return auxiliar
 	def __eq__(self,other):
 		if(isinstance(other, Lista)):
@@ -98,7 +147,6 @@ class Lista:
 			return False
 		else:
 			return False
-
 
 '''prueba = Lista()
 prueba.agregar(5)

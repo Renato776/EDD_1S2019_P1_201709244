@@ -15,7 +15,15 @@ def userSelection(entrada):
 			usr = name
 			print("User: "+name+" Has been created successfully.")
 			return
-		usuario = usuarios.getElement(seleccion-1)
+		print("type a for going right and b for going left:")
+		ren = raw_input()
+		if(ren == "a"):
+			usuarios.derecha()
+		else:
+			usuarios.izquierda()
+		int_v  = usuarios.iter
+		print(int_v)
+		usuario = usuarios.getElement(usuarios.iter)
 		if(usuario is None):
 			print("The selected user does not exist.")
 			return

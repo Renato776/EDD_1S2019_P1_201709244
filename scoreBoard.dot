@@ -1,0 +1,10 @@
+digraph foo { rankdir=LR; node [shape=record];n2[label = "null"]
+s0[label="{ <data> (11,5) | <ref>  }"];
+s0:ref -> s1 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s1[label="{ <data> (5,10) | <ref>  }"];
+s1:ref -> s2 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s2[label="{ <data> (3,4) | <ref>  }"];
+s2:ref -> s3 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s3[label="{ <data> (2,4) | <ref>  }"];
+s3:ref -> n2      [arrowhead=vee, tailclip=false,arrowtail = vee];
+}
