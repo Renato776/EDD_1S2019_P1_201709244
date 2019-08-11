@@ -10,6 +10,7 @@ max_x = 20
 max_y = 60
 usuarios = Lista()
 scoreBoard = Lista()
+true_stack = Lista()
 usuario = None
 reportes = Report("")
 def paint_menu(win):
@@ -79,7 +80,11 @@ def user_selection():
 			usuario = newUser
 			misc.clear_scr()
 			user_selection_header()
-
+def bulk_loading():
+	misc.imprimir("Type the name of the archive you'd like to load:")
+	target = misc.getString()
+	misc.bulk_loading(target,usuarios)
+	misc.imprimir("All users have been registrated successfully!")
 def score_board():
 	misc.reset_pos()
 	misc.print_row("User","Score")
@@ -91,6 +96,31 @@ def score_board():
 			aux = aux.prev
 	while key!=27:
 		key = window.getch()	
+def report_selection(t_window):
+	misc.reset_pos()
+	misc.clear_scr()
+	paint_title(t_window,"Report Selection")
+	misc.imprimir("1. Snake Report")
+	misc.imprimir("2. Score Report")
+	misc.imprimir("3. Score Board Report")
+	misc.imprimir("4. Users Report")
+	misc.imprimir("5. Go Back.")
+	key = 0
+	while key!=53:
+		key = window.getch()
+		if(key == 49):
+			reportes.snake_report(true_snake)
+			misc.imprimir("Snake report generated successfully!")
+		elif(key==50):
+			reportes.stack_report(true_stack)
+			misc.imprimir("Score report generated successfully!")
+		elif(key==51):
+			reportes.scoreBoard_report(scoreBoard)
+			misc.imprimir("Score Board report generated successfully!")
+		elif(key==52):
+			reportes.users_report(usuarios)
+			misc.imprimir("Users Report generated successfully!")
+	misc.clear_scr()
 stdscr = curses.initscr() #initialize console
 window = curses.newwin(max_x,max_y,0,0) #create a new curses window
 window.keypad(True)     #enable Keypad mode
@@ -125,9 +155,12 @@ while(keystroke==-1):
 			true_snake = valores.head.next.content
 			reportes.snake_report(true_snake)
 			reportes.stack_report(valores.tail.content)
+			true_stack = valores.tail.content
 		else:
-			reportes.snake_report(valores.head.next.content)
+			true_snake = valores.head.next.content
+			reportes.snake_report(true_snake)
 			reportes.stack_report(valores.tail.content)
+			true_stack = valores.tail.content
 			scoreBoard.enqueue(Lista(usuario,"{}".format(valores.tail.content.size)))	
 		paint_menu(window)
 		keystroke=-1
@@ -143,12 +176,12 @@ while(keystroke==-1):
         keystroke=-1
     elif(keystroke==52):
         paint_title(window, ' REPORTS ')
-        wait_esc(window)
+        report_selection(window)
         paint_menu(window)
         keystroke=-1
     elif(keystroke==53):
         paint_title(window,' BULK LOADING ')
-        wait_esc(window)
+        bulk_loading()
         paint_menu(window)
         keystroke=-1
     elif(keystroke==54):

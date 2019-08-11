@@ -1,5 +1,6 @@
 from lista import Lista
 from subprocess import call
+import pydot
 import os
 class Report:
 	def __init__(self,dir):
@@ -14,7 +15,7 @@ class Report:
 		os.system('dot -Tpng /home/renato/Desktop/python/snake/'+name+'.dot -o /home/renato/Desktop/python/snake/'+name+'.png')
 	def scoreBoard_report(self,scoreBoard):
 		aux = scoreBoard.head
-		resultado = "n2[label = \"null\"]"+"\n"
+		resultado = self.header+"\n"+"n2[label = \"null\"]"+"\n"
 		c = 0
 		while(aux is not None):
 			resultado = resultado + "s{}".format(c) +"[label=\"{ <data> "+aux.content.snake_body()+" | <ref>  }\"];"+"\n"
@@ -25,15 +26,14 @@ class Report:
 			c += 1
 			aux = aux.next
 		resultado = resultado +"}"
-		f= open(self.direccion+"scoreBoard.dot","w+")
-		f.write(self.header)
-		f.write(resultado)
-		f.close
-		self.getImage("scoreBoard")
+		grafos = pydot.graph_from_dot_data(resultado)
+		(g,)=grafos
+		g.write_jpg('scoreBoard.jpg')
+		os.system('scoreBoard.jpg')
 	def users_report(self,usuarios):
 		aux = usuarios.head
 		c = 0
-		resultado = ""
+		resultado = self.header+"\n"
 		while(aux is not None):
 			resultado = resultado + "s{}".format(c) +"[label=\"{<ref0> | <data> "+aux.toBody()+" | <ref>  }\"];"+"\n"
 			if(aux.next is not None):
@@ -43,13 +43,12 @@ class Report:
 			aux = aux.next
 			c+=1
 		resultado = resultado +"}"
-		f= open(self.direccion+"users.dot","w+")
-		f.write(self.header)
-		f.write(resultado)
-		f.close
-		self.getImage("users")
+		grafos = pydot.graph_from_dot_data(resultado)
+		(g,)=grafos
+		g.write_jpg('users.jpg')
+		os.system('users.jpg')
 	def stack_report(self,stack):
-		resultado = "score [label=\"{ |"
+		resultado = self.stack_header+"\n"+"score [label=\"{ |"
 		aux = stack.head
 		while(aux is not None):
 			resultado = resultado + aux.content.snake_body()
@@ -57,13 +56,18 @@ class Report:
 				resultado = resultado + " | "
 			aux = aux.next
 		resultado = resultado + "}\"]"+"\n"+"}"
-		f= open(self.direccion+"stack.dot","w+")
-		f.write(self.stack_header)
+		"""f= open("true_stack.dot","w+")
 		f.write(resultado)
-		f.close
-		self.getImage("stack")
+		f.close()   
+		os.system("dot -Tjpg resultado.dot -o true_stack.jpg")
+		os.system('true_stack.jpg')
+		"""
+		grafos = pydot.graph_from_dot_data(resultado)
+		(g,)=grafos
+		g.write_jpg('stack.jpg')
+		os.system('stack.jpg')
 	def snake_report(self,snake):
-		resultado =  "n1[label = \"null\"]"+"\n"
+		resultado =  self.header+"\n"+"n1[label = \"null\"]"+"\n"
 		resultado =  resultado + "n2[label = \"null\"]"+"\n"
 		aux = snake.head
 		c=0
@@ -73,15 +77,14 @@ class Report:
 				resultado = resultado + "s{}".format(c)+":ref -> s{}".format(c+1)+":ref0 [arrowhead=vee, dir=both, tailclip=false, arrowtail = vee];"+"\n"
 			else:
 				resultado = resultado + "s{}".format(int(snake.size-1))+":ref -> n2      [arrowhead=vee, tailclip=false,arrowtail = vee];"+"\n"
-				resultado = resultado + "s0:ref0 -> n1      [arrowhead=vee, tailclip=false,arrowtail = vee];"
+				resultado = resultado + "s0:ref0 -> n1      [arrowhead=vee, tailclip=false,arrowtail = vee];"+"\n"
 			c+=1
 			aux = aux.next
-		f= open(self.direccion+"snake.dot","w+")
-		f.write(self.header)
-		f.write(resultado)
-		f.write("}")
-		f.close
-		self.getImage("snake")
+		resultado = resultado+"}"
+		grafos = pydot.graph_from_dot_data(resultado)
+		(g,)=grafos
+		g.write_jpg('snake.jpg')
+		os.system('snake.jpg')
 #algo = Report("/home/renato/Desktop/python/snake/")
 """serpiente = Lista()
 serpiente.agregar(Lista(2,4))
