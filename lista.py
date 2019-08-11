@@ -1,5 +1,5 @@
 import inspect
-f= open("/home/renato/Desktop/python/snake/debug.txt","w+")
+f= open("debug.txt","w+")
 class Node:
 	def __init__(self, algo):
 		self.content = algo

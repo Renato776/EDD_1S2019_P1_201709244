@@ -2,6 +2,8 @@ import curses #import the curses library
 import time
 from lista import Lista
 from misc import Misc
+from snake import snake_game
+from report import Report
 from curses import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN #import special KEYS from the curses library
 misc = None
 max_x = 20
@@ -9,6 +11,7 @@ max_y = 60
 usuarios = Lista()
 scoreBoard = Lista()
 usuario = None
+reportes = Report("")
 def paint_menu(win):
     paint_title(win,' MAIN MENU ')          #paint title
     win.addstr(7,21, '1. Play')             #paint option 1
@@ -95,19 +98,39 @@ curses.noecho()         #prevent input from displaying in the screen
 curses.curs_set(0)      #cursor invisible (0)
 paint_menu(window)		
 misc = Misc(window,max_x,max_y)
-
+true_game = snake_game(None,max_x,max_y,window)
+true_snake = true_game.get_new_snake()
+pausa = False
 keystroke = -1
 while(keystroke==-1):
     keystroke = window.getch()  #get current key being pressed
     if(keystroke==49): #1
-        paint_title(window, ' PLAY ')
-        misc.imprimir("About to check usuario")
-        if(usuario is not None):
-        	misc.imprimir("intentando agregar Usuario: "+usuario)
-        	scoreBoard.agregar(Lista(usuario,"20"))
-        wait_esc(window)
-        paint_menu(window)
-        keystroke=-1
+		misc.clear_scr()
+		paint_title(window, ' PLAY ')
+		if(usuario is None):
+			misc.clear_scr()
+			misc.print_title("Creacion de Usuario:")
+			newUser = misc.getString()
+			usuarios.agregar(newUser)
+			usuario = newUser
+			misc.clear_scr()
+			paint_title(window, ' PLAY ')
+		valores = None
+		if(pausa):
+			valores = true_game.jugar(true_snake)
+		else:
+			valores = true_game.jugar(true_game.get_new_snake())
+		pausa = valores.head.content
+		if(pausa):
+			true_snake = valores.head.next.content
+			reportes.snake_report(true_snake)
+			reportes.stack_report(valores.tail.content)
+		else:
+			reportes.snake_report(valores.head.next.content)
+			reportes.stack_report(valores.tail.content)
+			scoreBoard.enqueue(Lista(usuario,"{}".format(valores.tail.content.size)))	
+		paint_menu(window)
+		keystroke=-1
     elif(keystroke==50):
         paint_title(window, ' SCOREBOARD ')
         score_board()
