@@ -36,6 +36,22 @@ class Lista:
 				aux1 = aux1.next
 			return True
 		return False
+	def reverse_content(self):
+		vessel = Lista()
+		aux = self.head
+		while(aux is not None):
+			vessel.agregar(aux.content)
+			aux = aux.next
+		self.head = vessel.head
+		self.tail = vessel.tail
+		self.size = vessel.size
+	def should_be_reversed(self):
+		if(self.head is not None):
+			if(self.head.next is not None):
+				if(self.head.next.next is not None):
+					if(self.head.content.comparar(self.head.next.next.content)):
+						return True
+		return False
 	def is_in_itself(self):
 		aux_head = self.head.content
 		aux = self.head

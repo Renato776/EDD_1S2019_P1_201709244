@@ -11,7 +11,7 @@ sh, sw = s.getmaxyx()
 w = curses.newwin(sh, sw, 0, 0)
 w.keypad(1)
 w.timeout(100)
-
+is_not_reversing = True
 snk_x = sw/4
 snk_y = sh/2
 snake = Lista()
@@ -26,25 +26,36 @@ key = curses.KEY_RIGHT
 while True:
 	next_key = w.getch()
 	key = key if next_key == -1 else next_key
-	new_head = Lista(12,12)
+	new_head = Lista(18,18)
 	foo.write("Current head: "+snake.head.content.snake_body()+"\n")
-	if snake.is_in_itself():
-		#curses.endwin()
-		reportes.scoreBoard_report(score)
-		#quit()
+	if snake.head.content.head.content == 0:
+		new_head = Lista(sh-1, snake.head.content.tail.content)
+	elif snake.head.content.head.content == sh:
+		new_head = Lista(1,snake.head.content.tail.content)
+	elif snake.head.content.tail.content == 0:
+		new_head = Lista(snake.head.content.head.content, sw-1)
+	elif snake.head.content.tail.content == sw:
+		new_head = Lista(snake.head.content.head.content,1)
+	elif snake.is_in_itself():
+		if(snake.should_be_reversed()):
+			snake.reverse_content()
+			foo.write("Snake has been reversed.")
+			new_head = Lista(snake.head.content.head.content, snake.head.content.tail.content)
+		else:
+			curses.endwin()
+			reportes.scoreBoard_report(score)
+			foo.write("Finished Excecution")
+			quit()
 	else:
 		new_head = Lista(snake.head.content.head.content, snake.head.content.tail.content)
 	if key == curses.KEY_DOWN:
-		new_head.head.content = new_head.head.content + 1
-		foo.write("DOWN {}".format(new_head.head.content))
+		new_head.head.content += 1
 	if key == curses.KEY_UP:
-		new_head.head.content = new_head.head.content - 1
-		foo.write("UP {}".format(new_head.head.content))
+		new_head.head.content -= 1
 	if key == curses.KEY_LEFT:
-		new_head.tail.content = new_head.tail.content -1
+		new_head.tail.content -= 1
 	if key == curses.KEY_RIGHT:
-		new_head.tail.content = new_head.tail.content + 1
-	foo.write("true_new_head: {},{}".format(snake.head.content.head.content, snake.head.content.tail.content))
+		new_head.tail.content += 1
 	foo.write("New head: "+new_head.snake_body())
 	snake.agregar(new_head)
 	borders = Lista()
@@ -52,7 +63,7 @@ while True:
 	borders.agregar(sh)
 	borders.agregar(sw)
 	if snake.head.content.comparar(food):
-		score.agregar(Lista(snake.head.content.head,snake.head.content.tail))
+		score.agregar(Lista(snake.head.content.head.content,snake.head.content.tail.content))
 		food = None
 		while food is None:
 			nf = Lista(random.randint(1, sh-1),random.randint(1, sw-1))

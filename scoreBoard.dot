@@ -1,2 +1,24 @@
 digraph foo { rankdir=LR; node [shape=record];n2[label = "null"]
+s0[label="{ <data> (5,12) | <ref>  }"];
+s0:ref -> s1 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s1[label="{ <data> (5,7) | <ref>  }"];
+s1:ref -> s2 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s2[label="{ <data> (2,32) | <ref>  }"];
+s2:ref -> s3 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s3[label="{ <data> (6,83) | <ref>  }"];
+s3:ref -> s4 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s4[label="{ <data> (3,71) | <ref>  }"];
+s4:ref -> s5 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s5[label="{ <data> (11,33) | <ref>  }"];
+s5:ref -> s6 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s6[label="{ <data> (7,9) | <ref>  }"];
+s6:ref -> s7 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s7[label="{ <data> (7,79) | <ref>  }"];
+s7:ref -> s8 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s8[label="{ <data> (1,72) | <ref>  }"];
+s8:ref -> s9 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s9[label="{ <data> (8,37) | <ref>  }"];
+s9:ref -> s10 [arrowhead=vee, tailclip=false, arrowtail = vee];
+s10[label="{ <data> (8,44) | <ref>  }"];
+s10:ref -> n2      [arrowhead=vee, tailclip=false,arrowtail = vee];
 }
