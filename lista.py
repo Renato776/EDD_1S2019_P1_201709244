@@ -39,9 +39,13 @@ class Lista:
 	def is_in_itself(self):
 		aux_head = self.head.content
 		aux = self.head
+		isNotHead = False
 		while(aux is not None):
-			if(aux.content.comparar(aux_head)):
-				return True
+			if(isNotHead):
+				if(aux.content.comparar(aux_head)):
+					return True
+			else:
+				isNotHead = True
 			aux = aux.next
 		return False
 	def is_inside(self,other):

@@ -8,12 +8,16 @@ In list:
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
+Searching for: 13
+In list: 
+89
+17
+0
 Searching for: 8
 In list: 
 89
@@ -24,12 +28,12 @@ In list:
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
@@ -44,1309 +48,2852 @@ In list:
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 11
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 12
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 16
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 16
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 2
+Searching for: 13
 In list: 
 89
 17
 0
-Searching for: -1
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 0
+Searching for: 11
 In list: 
 89
 17
 0
-Found: 0
-Searching for: 0
+Searching for: 13
 In list: 
 89
 17
 0
-Found: 0
-Searching for: -2
+Searching for: 12
 In list: 
 89
 17
 0
-Searching for: 88
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 13
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
+In list: 
+89
+17
+0
+Searching for: 12
+In list: 
+89
+17
+0
+Searching for: 11
 In list: 
 89
 17
