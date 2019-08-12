@@ -1,9 +1,0 @@
-digraph foo { rankdir=LR; node [shape=record];n1[label = "null"]
-n2[label = "null"]
-s0 [label="{<ref0> | <data> (8,22) | <ref>  }"];
-s0:ref -> s1:ref0 [arrowhead=vee, dir=both, tailclip=false, arrowtail = vee];
-s1 [label="{<ref0> | <data> (8,21) | <ref>  }"];
-s1:ref -> s2:ref0 [arrowhead=vee, dir=both, tailclip=false, arrowtail = vee];
-s2 [label="{<ref0> | <data> (8,20) | <ref>  }"];
-s2:ref -> n2      [arrowhead=vee, tailclip=false,arrowtail = vee];
-s0:ref0 -> n1      [arrowhead=vee, tailclip=false,arrowtail = vee];}

@@ -71,6 +71,7 @@ class Lista:
 				return True
 			aux = aux.next
 		return False
+	
 	def popElement(self):
 		if(self.head is None):
 			return None

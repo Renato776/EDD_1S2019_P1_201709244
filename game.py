@@ -76,24 +76,28 @@ def user_selection():
 			misc.print_title("Creacion de Usuario:")
 			newUser = misc.getString()
 			#misc.imprimir("Usuario: "+newUser+" Ha sido creado con exito.")
-			usuarios.agregar(newUser)
+			if( not usuarios.has(newUser)):
+				usuarios.agregar(newUser)
 			usuario = newUser
 			misc.clear_scr()
 			user_selection_header()
 def bulk_loading():
-	misc.imprimir("Type the name of the archive you'd like to load:")
+	#misc.win.addstr(misc.pos_y,3, "Type the name of the archive you'd like to load:")
+	#misc.pos_y+=1
+	misc.imprimir("Type the name of the archive you'd like to load:",True)
 	target = misc.getString()
-	misc.bulk_loading(target,usuarios)
-	misc.imprimir("All users have been registrated successfully!")
+	success = misc.bulk_loading(target,usuarios)
+	if(success):
+		misc.imprimir("All users have been registrated successfully!",True)
 def score_board():
 	misc.reset_pos()
 	misc.print_row("User","Score")
-	aux = scoreBoard.tail
+	aux = scoreBoard.head
 	key = 0
 	while(aux is not None):
 		if(aux.content is not None):
 			misc.print_row(aux.content.head.content,aux.content.tail.content)
-			aux = aux.prev
+			aux = aux.next
 	while key!=27:
 		key = window.getch()	
 def report_selection(t_window):
@@ -128,7 +132,7 @@ curses.noecho()         #prevent input from displaying in the screen
 curses.curs_set(0)      #cursor invisible (0)
 paint_menu(window)		
 misc = Misc(window,max_x,max_y)
-true_game = snake_game(None,max_x,max_y,window)
+true_game = snake_game(None,max_x,max_y,window,usuario)
 true_snake = true_game.get_new_snake()
 pausa = False
 keystroke = -1
@@ -145,6 +149,7 @@ while(keystroke==-1):
 			usuario = newUser
 			misc.clear_scr()
 			paint_title(window, ' PLAY ')
+		true_game.player = usuario
 		valores = None
 		if(pausa):
 			valores = true_game.jugar(true_snake)
@@ -182,6 +187,7 @@ while(keystroke==-1):
     elif(keystroke==53):
         paint_title(window,' BULK LOADING ')
         bulk_loading()
+        key = window.getch()
         paint_menu(window)
         keystroke=-1
     elif(keystroke==54):
