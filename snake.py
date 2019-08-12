@@ -176,7 +176,7 @@ class snake_game:
 						self.w.addch(int(absolute_tail.head.content), int(absolute_tail.tail.content), ' ')
 				else:
 					self.score.agregar(Lista(self.snake.head.content.head.content,self.snake.head.content.tail.content))
-					if((self.score.size % 5) == 0):
+					if((self.score.size % 15) == 0):
 						self.level += 1
 						self.calculate_obstacles()
 						self.paint_obstacles()
