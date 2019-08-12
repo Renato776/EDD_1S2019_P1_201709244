@@ -19,6 +19,20 @@ class snake_game:
 		self.food_symbol = "+"
 		self.obstacles = Lista()
 		self.player = jugador
+		self.difficulty = 80
+		self.thereshold = 15
+		try:
+			fu = open("config.ren","r")
+			f1 = fu.readlines()
+			c = 0
+			for content in f1:
+				if(c==0):
+					self.difficulty = int(content.strip())
+				elif(c==1):
+					self.thereshold = int(content.strip())
+				c+=1
+		except:
+			self.difficulty = 80
 	def get_new_snake(self):
 		n_snake = Lista()
 		snk_x = self.sw/4
@@ -176,13 +190,13 @@ class snake_game:
 						self.w.addch(int(absolute_tail.head.content), int(absolute_tail.tail.content), ' ')
 				else:
 					self.score.agregar(Lista(self.snake.head.content.head.content,self.snake.head.content.tail.content))
-					if((self.score.size % 15) == 0):
+					if((self.score.size % self.thereshold) == 0):
 						self.level += 1
 						self.calculate_obstacles()
 						self.paint_obstacles()
 				self.food = None
 				new_type = random.randint(1, 100)
-				if(new_type <= 80):
+				if(new_type <= self.difficulty):
 					while self.food is None:
 						nf = Lista(random.randint(1, self.sh-1),random.randint(1, self.sw-1))
 						self.food = nf if (not self.snake.is_inside(nf)) and (not self.food_is_in_obstacle(nf)) else None
